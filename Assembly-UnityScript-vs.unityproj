@@ -46,7 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\scripts\dontDestroyPers.js" />
+     <Compile Include="Assets\Steps\Steps.js" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>E:/unity/labirint/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
