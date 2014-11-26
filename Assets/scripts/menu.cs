@@ -2,10 +2,6 @@
 using System.Collections;
 
 public class menu : MonoBehaviour {
-
-	void newgame(){
-		Application.LoadLevel("level1");
-	}
 	
 	void levels(){
 		Application.LoadLevel("levels");
@@ -25,5 +21,10 @@ public class menu : MonoBehaviour {
 	
 	void back(){
 		Application.LoadLevel("mainMenu");
+	}
+
+	void Start(){
+		
+		Screen.showCursor = true;
 	}
 }
